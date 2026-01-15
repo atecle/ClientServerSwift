@@ -1,0 +1,19 @@
+type_body_length:
+  - 300 # warning
+  - 400 # error
+
+function_body_length:
+  - 60 # warning 
+  - 70 # error
+
+line_length:
+  - 150
+  - 200
+
+file_length:
+  warning: 500
+  error: 800
+
+large_tuple: # warn user when using 3 values in tuple, give error if there are 4
+  - 3
+  - 4
